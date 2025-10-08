@@ -1222,7 +1222,7 @@ class PortfolioApp {
                 if (!qrCodeGenerated && typeof QRCode !== 'undefined') {
                     qrCodeContainer.innerHTML = ''; // Clear any existing content
                     new QRCode(qrCodeContainer, {
-                        text: 'https://kineticdirt.github.io/personal_portfolio/',
+                        text: 'https://kineticdirt.github.io/LinuxBoxPortfolio/',
                         width: 256,
                         height: 256,
                         colorDark: '#ffffff',
